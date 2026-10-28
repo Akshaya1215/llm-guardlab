@@ -1,0 +1,7 @@
+# Core (no external deps needed for offline mode)
+pytest>=7.4
+
+# Required ONLY for real-model testing (--real-model flag)
+# Install separately: pip install openai python-dotenv
+openai>=1.0
+python-dotenv>=1.0
